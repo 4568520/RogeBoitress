@@ -1,25 +1,40 @@
+var parent = document.createElement("div");
+var p = document.createElement("p");
+parent.append("Some text", p);
 
-	screen = [];
-	for(i=0;i<10;i++){
+console.log(parent.childNodes);
+
+
+/*
+var Terr = new Arrey('A','~','_','T');
+var map = [];
+var mSize = 15
+for (var i = 0; i < mSize; i++) {
+  for (var j = 0; j < mSize; i++) {
+    map[i]=map[i]+Terr[(Math.random()*4)]
+  }
+}
+
+window.onload = function(){
+  var src= document.getElementById("screen");
+  var screen = [];
+  for(i=0;i<15;i++){
+		screen[i] = '<h1>'+map[i]+'</h1><br>';
+    src.insertAdjacentHTML('beforend', screen[i]);
+  }
+
+}
+
+
+
+  screen = [];
 		screen[i] = [];
-	}
+
 	for(i=0;i<10;i++){
 		screen[i] = "O-O+69OWO";
-	}
+document.getElementById("screen").innerHTML = screen[i];
+  }
 
-	map = [];
-	for(i=0;i<50;i++){
-		map[i]=[];
-		for(o=0;o<50;o++){
-			map[i][o] = "=gxxxxx";
-		}
-	}
   document.getElementById("screen1").innerHTML = screen[0];
-  document.getElementById("screen2").innerHTML = screen[1];
-  document.getElementById("screen3").innerHTML = screen[2];
-  document.getElementById("screen4").innerHTML = screen[3];
-  document.getElementById("screen5").innerHTML = screen[4];
-  document.getElementById("screen6").innerHTML = screen[5];
-  document.getElementById("screen7").innerHTML = screen[6];
-  document.getElementById("screen8").innerHTML = screen[7];
-  document.getElementById("screen9").innerHTML = screen[8];
+}
+*/
