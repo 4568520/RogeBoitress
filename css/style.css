@@ -1,0 +1,19 @@
+
+body {background-color: black;}
+h1 {
+	color: lime;
+	font-family: monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 10;
+	line-height: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 4px;
+}
+form{
+  align-content: center;
+margin: auto;
+
+}
