@@ -1,7 +1,8 @@
 
-offset= -340;
+
 var toAdd = document.createDocumentFragment();
 for(j=0;j<21;j++){
+  offset= -340;
 //var toAdd = document.createDocumentFragment();
 for(i=0;i<21;i++){
   var newDic = document.createElement('div');
